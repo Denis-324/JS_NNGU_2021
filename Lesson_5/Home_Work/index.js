@@ -75,6 +75,7 @@
 //     if (getDigitsSum(i) === 13) {
 //       nums.push(i);
 //     }
+
 //   }
 //   return nums;
 // };
@@ -138,3 +139,5 @@
 //   return num;
 // };
 // console.log(getLessNime(45678));
+
+
