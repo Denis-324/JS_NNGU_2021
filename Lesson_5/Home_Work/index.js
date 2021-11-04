@@ -109,7 +109,7 @@
 //   }
 //   return arr;
 // };
-// console.log(getDivisors(1000000));
+// console.log(getDivisors(46468));
 
 //   Дан массив с числами. Выведите последовательно его элементы.
 // const arr1 = [10, 1, 8, 3, 12, 4, 6];
@@ -139,5 +139,3 @@
 //   return num;
 // };
 // console.log(getLessNime(45678));
-
-
