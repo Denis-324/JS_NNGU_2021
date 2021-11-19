@@ -120,3 +120,29 @@
 // };
 // letterOne.newFrom("itali");
 // console.log(letterOne);
+
+class People {
+  constructor(name, surname) {
+    this.name = name;
+    this.surname = surname;
+  }
+  getFullName() {
+    return `${this.name} ${this.surname}`;
+  }
+}
+
+class Worker extends People {
+  constructor(name, surname, rate, day) {
+    super(name, surname);
+    this.rate = rate;
+    this.day = day;
+  }
+  getSalary() {
+    return `${this.rate * this.day}`;
+  }
+}
+
+const FirstWorker = new Worker("ivan", "petrov", 28, 3);
+
+console.log(FirstWorker.getSalary());
+console.log(FirstWorker.getFullName());
